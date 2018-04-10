@@ -1,0 +1,18 @@
+{
+  "name": "noderestapi",
+  "version": "1.0.0",
+  "description": "Simple Rest API using Node.js to serve as a technical example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Nelson Samayoa",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
