@@ -22,7 +22,10 @@ A very very simple sample project to serve as an example of a RESTful API writte
     * name            [string]  The devices name
     * yearPurchased   [int]     The year in which the device was purchased
 
-    Example request body: ``` {"id":3,"name":"Smart Watch","yearPurchased":2017} ```
+    Example request body: 
+    ``` 
+    {"id":3,"name":"Smart Watch","yearPurchased":2017} 
+    ```
 
 
 ### Delete an existing device ###
@@ -44,4 +47,7 @@ A very very simple sample project to serve as an example of a RESTful API writte
 
     Example request: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/3
 
-    Example request body: ``` {"id":3,"name":"Smart Watch","yearPurchased":2017} ```
+    Example request body: 
+    ``` 
+    {"id":3,"name":"Smart Watch","yearPurchased":2017} 
+    ```
