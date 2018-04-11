@@ -9,7 +9,7 @@ GET: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Device
 GET: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/<id>
   
 Parameters:
-  id  [int] the ID of the device you wish to retreive 
+  * id  [int] the ID of the device you wish to retreive 
   
 Example request: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/2
 
@@ -18,9 +18,9 @@ Example request: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstal
 POST: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices
 
 Request body (JSON): 
-  id              [int]     The dew device's ID (must not already exist)
-  name            [string]  The devices name
-  yearPurchased   [int]     The year in which the device was purchased
+  * id              [int]     The dew device's ID (must not already exist)
+  * name            [string]  The devices name
+  * yearPurchased   [int]     The year in which the device was purchased
   
   Example request body: {"id":3,"name":"Smart Watch","yearPurchased":2017}
 
@@ -29,18 +29,18 @@ Request body (JSON):
 DELETE
 http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/<id>
 Parameters:
-  id  [int] the ID of the device you wish to delete 
+  * id  [int] the ID of the device you wish to delete 
 Example request: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/3
 
 ### Update a device [currently broken] ###
 POST
 http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/<id>
 Parameters:
-  id  [int] the ID of the device you wish to retreive 
+  * id  [int] the ID of the device you wish to retreive 
 Request body (JSON): 
-  id              [int]     The dew device's ID (must not already exist)
-  name            [string]  The devices name
-  yearPurchased   [int]     The year in which the device was purchased
+  * id              [int]     The dew device's ID (must not already exist)
+  * name            [string]  The devices name
+  * yearPurchased   [int]     The year in which the device was purchased
 
   Example request: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/3
   Example request body: {"id":3,"name":"Smart Watch","yearPurchased":2017}
