@@ -38,7 +38,5 @@ A very very simple sample project to serve as an example of a RESTful API writte
     * id              [int]     The dew device's ID (must not already exist) <br />
     * name            [string]  The devices name <br />
     * yearPurchased   [int]     The year in which the device was purchased <br />
-    
-    Example request: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/3
-    
-    Example request body: {"id":3,"name":"Smart Watch","yearPurchased":2017} 
+    Example request: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices/3 <br />
+    Example request body: {"id":3,"name":"Smart Watch","yearPurchased":2017} <br />
