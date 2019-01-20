@@ -1,5 +1,5 @@
 # NodeRestApi
-A very very simple sample project to serve as an example of a RESTful API written in Node.js with Express. The API is currently hosted on Amazon Web Services (AWS) using BeanStalk.
+A very very simple sample project to serve as an example of a RESTful API written in Node.js with Express. The API is [no longer] hosted [was at one time hosted] on Amazon Web Services (AWS) using BeanStalk.
 
 ### Retreive all devices currently on the server ###
   GET: http://noderestapidemo-env.mcusxpdd2n.us-west-1.elasticbeanstalk.com/Devices 
